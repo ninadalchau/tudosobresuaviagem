@@ -1,0 +1,33 @@
+.container{
+    padding: 2%;
+}
+
+.navbar {
+    background-image: url("images/estrelinha.jpg");
+    width: 100%;
+    justify-content: space-between;
+}
+
+.imgfixa {
+    margin-top: 100px;
+}
+
+.text{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.subtitle{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.littletitle{
+    font-size: 20px;
+    text-decoration: underline;
+}

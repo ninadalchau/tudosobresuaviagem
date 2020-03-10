@@ -6,10 +6,24 @@
     background-image: url("images/estrelinha.jpg");
     width: 100%;
     justify-content: space-between;
+    color: #fff;
 }
 
-.imgfixa {
-    margin-top: 100px;
+#titulo {
+    margin-left: 50px;
+}
+
+.nav-link {
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.navbar-brand {
+    margin-left: 30px;
+}
+
+.espacocontainer {
+    margin-top: 120px;
 }
 
 .text{
@@ -22,6 +36,7 @@
     font-weight: bold;
 }
 
+
 .subtitle{
     font-size: 25px;
     font-weight: bold;
@@ -30,4 +45,32 @@
 .littletitle{
     font-size: 20px;
     text-decoration: underline;
+}
+.indice{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.content {
+    justify-content: center;
+}
+
+body {
+    background-color: rgb(219, 219, 219);
+    background-color: rgb(14, 14, 24);
+    color: white;
+}
+.sobrenos {
+    display: flex;
+}
+
+.acordeao {
+    color: black;
+    font-family: -apple-system;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#table {
+    border: 70px;
+
 }

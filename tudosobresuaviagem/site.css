@@ -55,6 +55,11 @@
     justify-content: center;
 }
 
+#sobrenos {
+    margin-left: -110px;
+    margin-right: -14px;
+}
+
 body {
     background-color: rgb(219, 219, 219);
     background-color: rgb(14, 14, 24);
@@ -62,6 +67,25 @@ body {
 }
 .sobrenos {
     display: flex;
+}
+
+.card-text {
+    color: black;
+    padding: 1px;
+}
+
+.card-title {
+    color: black;
+}
+
+.carousel {
+    margin-left: 1px;
+    margin-right: -110px;
+}
+
+
+h5 {
+    color: rgb(33, 150, 243);
 }
 
 .acordeao {
@@ -72,5 +96,9 @@ body {
 }
 #table {
     border: 70px;
+}
 
+.col-sm-4 {
+    width: 500px;
+    height: 300px;
 }

@@ -1,41 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head> <!-- início do cabeçalho -->
-  <title>TudoSobreSuaViagem</title> <!-- título -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"> </script> 
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> <!-- linkagem do css do boostrap, utilizado para as bases do site -->
-  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon"> <!-- imagem que 
+  <head>
+    <!-- início do cabeçalho -->
+    <title>TudoSobreSuaViagem</title>
+    <!-- título -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- linkagem do css do boostrap, utilizado para as bases do site -->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <!-- imagem que 
   fica ao lado do título -->
-  <link rel="stylesheet" href="site.css">
-  <script type="text/javascript" src="site.js"></script>
-</head> <!-- fim do cabeçalho -->
-<body> <!-- início do corpo da página -->
-    <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark"> <!-- barra de navegação fixa -->
-        <a class="navbar-brand" href="#"><img src="images/logo.png" width="120px" alt="" class=""></a> <!-- logo -->
-        <img class="img-fluid" src="images/titulo2.png" width="500px" alt="" class=""></a> <!-- logo -->
-        <ul class="navbar-nav"> <!-- ínicio dos itens da barra de navegação -->
-          <li class="nav-item"> <!-- item um -->
-              <a class="nav-link text-white" href="contatos.html">Contatos</a> <!-- redirecionador com texto -->
-          </li> <!-- fim do item um -->
-          <li class="nav-item"> <!-- item dois -->
-              <a class="nav-link text-white" href="destinos.html">Destinos</a> <!-- redirecionador com texto -->
-          </li> <!-- fim do item dois -->
-          <li class="nav-item"> <!-- item três -->
-            <a class="nav-link text-white" href="entrar.html">Entrar</a> <!-- redirecionador com texto -->
-        </li> <!-- fim do item três -->
-        </ul> <!-- fim dos itens da barra de navegação -->
-    </nav> <!-- fim da barra de navegação fixa -->
-<div class="espacocontainer"> <!-- imagem fixa/espaço container -->
-  <img class="img-fluid" src="images/fotoinicial.png" alt="Chania" height=""> <!--/media/aluno/E8BF-4148/tudosobresuaviagem/--> <!-- imagem fixa -->
-</div>
-<div class="container"> <!-- primeira divisão do site, um container --> 
-  <div class="row"> <!-- -->
-    <div class="col-sm-4"> <!-- organização em colunas -->
-      <!-- <h3><b>Sobre Nós</b></h3>
+    <link rel="stylesheet" href="site.css" />
+    <script type="text/javascript" src="site.js"></script>
+  </head>
+  <!-- fim do cabeçalho -->
+  <body>
+    <!-- início do corpo da página -->
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
+      <!-- barra de navegação fixa -->
+      <a class="navbar-brand" href="#"
+        ><img src="images/logo.png" width="120px" alt="" class=""
+      /></a>
+      <!-- logo -->
+      <img
+        class="img-fluid"
+        src="images/titulo2.png"
+        width="500px"
+        alt=""
+        class=""
+      />
+      <!-- logo -->
+      <ul class="navbar-nav">
+        <!-- ínicio dos itens da barra de navegação -->
+        <li class="nav-item">
+          <!-- item um -->
+          <a class="nav-link text-white" href="contatos.html">Contatos</a>
+          <!-- redirecionador com texto -->
+        </li>
+        <!-- fim do item um -->
+        <li class="nav-item">
+          <!-- item dois -->
+          <a class="nav-link text-white" href="destinos.html">Destinos</a>
+          <!-- redirecionador com texto -->
+        </li>
+        <!-- fim do item dois -->
+        <li class="nav-item">
+          <!-- item três -->
+          <a class="nav-link text-white" href="entrar.html">Entrar</a>
+          <!-- redirecionador com texto -->
+        </li>
+        <!-- fim do item três -->
+      </ul>
+      <!-- fim dos itens da barra de navegação -->
+    </nav>
+    <!-- fim da barra de navegação fixa -->
+    <div class="espacocontainer">
+      <!-- imagem fixa/espaço container -->
+      <img
+        class="img-fluid"
+        src="images/fotoinicial.png"
+        alt="Chania"
+        height=""
+      />
+      <!--/media/aluno/E8BF-4148/tudosobresuaviagem/-->
+      <!-- imagem fixa -->
+    </div>
+    <div class="container">
+      <!-- primeira divisão do site, um container -->
+      <div class="row">
+        <!-- -->
+        <div class="col-sm-4">
+          <!-- organização em colunas -->
+          <!-- <h3><b>Sobre Nós</b></h3>
       <p><u>Qual o nosso objetivo com o site?</u><br>
         -Nossa empresa sempre teve e continua tendo o objetivo de
         facilitar a vida de iniciantes no rumo de viagem e também
@@ -46,141 +89,200 @@
         possuir tudo que você precisa, entre na nossa aba de contato e
         mande uma mensagem para nós. Obrigada, e tenha uma boa viagem pelo site.
         </p>-->
-<!-- Card Wider -->
-<div class="card card-cascade wider" id="sobrenos">
-    <!-- Card content -->
-    <div class="card-body card-body-cascade text-center">
-      <!-- Title -->
-      <h4 class="card-title"><strong>Sobre nós</strong></h4>
-      <!-- Subtitle -->
-      <h5 class="blue-text pb-2"><strong>Qual o nosso objetivo?</strong></h5>
-      <!-- Text -->
-      <p class="card-text">-Nossa empresa sempre teve e continua tendo o objetivo de
-          facilitar a vida de iniciantes no rumo de viagem e também
-          os que já estão por dentro de tudo que irá acontecer no caminho.
-          Sabemos que até os super experientes no ramos às vezes ficam em
-          dúvida sobre alguns detalhezinhos, e estamos aqui para tirar a sua
-          dúvida e para te ajudar em tudo que for possível. Se o nosso site não
-          possuir tudo que você precisa, entre na nossa aba de contato e
-          mande uma mensagem para nós. Obrigada, e tenha uma boa viagem pelo site.</p>
-    </div>
-  </div>
-    </div> 
-    <div class="col-sm-8"> <!-- organização em colunas -->
-<!--Carousel Wrapper-->
-<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
-  <!--Indicators-->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-3" data-slide-to="1"></li>
-    <li data-target="#carousel-example-4" data-slide-to="2"></li>
-    <li data-target="#carousel-example-5" data-slide-to="3"></li>
-    <li data-target="#carousel-example-6" data-slide-to="4"></li>
-    <li data-target="#carousel-example-7" data-slide-to="5"></li>
-    <li data-target="#carousel-example-8" data-slide-to="6"></li>
-    <li data-target="#carousel-example-9" data-slide-to="7"></li>
-  </ol>
-  <!--/.Indicators-->
-  <!--Slides-->
-  <div class="carousel-inner" role="listbox">
-    <div class="carousel-item active">
-      <div class="view">
-        <img class="d-block w-100" src="images/cristo.jpg" height="362.5px"
-          alt="First slide">
-        <div class="mask rgba-black-light"></div>
-      </div>
-      <div class="carousel-caption">
-        <h3 class="h3-responsive">Cristo Redentor</h3>
-        <p>Rio de Janeiro, Brasil</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <!--Mask color-->
-      <div class="view">
-        <img class="d-block w-100" src="images/Coliseu.png" height="362.5px"
-          alt="Second slide">
-        <div class="mask rgba-black-light"></div>
-      </div>
-      <div class="carousel-caption">
-        <h3 class="h3-responsive">Coliseu</h3>
-        <p>Roma, Itália</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <!--Mask color-->
-      <div class="view">
-        <img class="d-block w-100" src="images/machupicchu.jpg" height="362.5px"
-          alt="Third slide">
-        <div class="mask rgba-black-light"></div>
-      </div>
-      <div class="carousel-caption">
-        <h3 class="h3-responsive">Machu Picchu</h3>
-        <p>Machu Picchu, Peru</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-        <!--Mask color-->
-        <div class="view">
-          <img class="d-block w-100" src="images/muralhadachina.jpg" height="362.5px"
-            alt="Third slide">
-          <div class="mask rgba-black-light"></div>
-        </div>
-        <div class="carousel-caption">
-          <h3 class="h3-responsive">Muralha da China</h3>
-          <p>Pequim, China</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-          <!--Mask color-->
-          <div class="view">
-            <img class="d-block w-100" src="images/tajmahal.jpg" height="362.5px"
-              alt="Third slide">
-            <div class="mask rgba-black-light"></div>
-          </div>
-          <div class="carousel-caption">
-            <h3 class="h3-responsive">Taj Mahal</h3>
-            <p>Agra, Índia</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-            <!--Mask color-->
-            <div class="view">
-              <img class="d-block w-100" src="images/ruinasdepetra.jpg" height="362.5px"
-                alt="Third slide">
-              <div class="mask rgba-black-light"></div>
-            </div>
-            <div class="carousel-caption">
-              <h3 class="h3-responsive">Ruínas de Petra</h3>
-              <p>Petra, Jordânia</p>
+          <!-- Card Wider -->
+          <div class="card card-cascade wider" id="sobrenos">
+            <!-- Card content -->
+            <div class="card-body card-body-cascade text-center">
+              <!-- Title -->
+              <h4 class="card-title"><strong>Sobre nós</strong></h4>
+              <!-- Subtitle -->
+              <h5 class="blue-text pb-2">
+                <strong>Qual o nosso objetivo?</strong>
+              </h5>
+              <!-- Text -->
+              <p class="card-text">
+                -Nossa empresa sempre teve e continua tendo o objetivo de
+                facilitar a vida de iniciantes no rumo de viagem e também os que
+                já estão por dentro de tudo que irá acontecer no caminho.
+                Sabemos que até os super experientes no ramos às vezes ficam em
+                dúvida sobre alguns detalhezinhos, e estamos aqui para tirar a
+                sua dúvida e para te ajudar em tudo que for possível. Se o nosso
+                site não possuir tudo que você precisa, entre na nossa aba de
+                contato e mande uma mensagem para nós. Obrigada, e tenha uma boa
+                viagem pelo site.
+              </p>
             </div>
           </div>
-          <div class="carousel-item">
-              <!--Mask color-->
-              <div class="view">
-                <img class="d-block w-100" src="images/chichenItzá.jpg" height="362.5px"
-                  alt="Third slide">
-                <div class="mask rgba-black-light"></div>
+        </div>
+        <div class="col-sm-8">
+          <!-- organização em colunas -->
+          <!--Carousel Wrapper-->
+          <div
+            id="carousel-example-2"
+            class="carousel slide carousel-fade"
+            data-ride="carousel"
+          >
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carousel-example-2"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li data-target="#carousel-example-3" data-slide-to="1"></li>
+              <li data-target="#carousel-example-4" data-slide-to="2"></li>
+              <li data-target="#carousel-example-5" data-slide-to="3"></li>
+              <li data-target="#carousel-example-6" data-slide-to="4"></li>
+              <li data-target="#carousel-example-7" data-slide-to="5"></li>
+              <li data-target="#carousel-example-8" data-slide-to="6"></li>
+              <li data-target="#carousel-example-9" data-slide-to="7"></li>
+            </ol>
+            <!--/.Indicators-->
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <div class="view">
+                  <img
+                    class="d-block w-100"
+                    src="images/cristo.jpg"
+                    height="362.5px"
+                    alt="First slide"
+                  />
+                  <div class="mask rgba-black-light"></div>
+                </div>
+                <div class="carousel-caption">
+                  <h3 class="h3-responsive">Cristo Redentor</h3>
+                  <p>Rio de Janeiro, Brasil</p>
+                </div>
               </div>
-              <div class="carousel-caption">
-                <h3 class="h3-responsive">Chichén Itzá</h3>
-                <p>Yucatán, México</p>
+              <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                  <img
+                    class="d-block w-100"
+                    src="images/Coliseu.png"
+                    height="362.5px"
+                    alt="Second slide"
+                  />
+                  <div class="mask rgba-black-light"></div>
+                </div>
+                <div class="carousel-caption">
+                  <h3 class="h3-responsive">Coliseu</h3>
+                  <p>Roma, Itália</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                  <img
+                    class="d-block w-100"
+                    src="images/machupicchu.jpg"
+                    height="362.5px"
+                    alt="Third slide"
+                  />
+                  <div class="mask rgba-black-light"></div>
+                </div>
+                <div class="carousel-caption">
+                  <h3 class="h3-responsive">Machu Picchu</h3>
+                  <p>Machu Picchu, Peru</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                  <img
+                    class="d-block w-100"
+                    src="images/muralhadachina.jpg"
+                    height="362.5px"
+                    alt="Third slide"
+                  />
+                  <div class="mask rgba-black-light"></div>
+                </div>
+                <div class="carousel-caption">
+                  <h3 class="h3-responsive">Muralha da China</h3>
+                  <p>Pequim, China</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                  <img
+                    class="d-block w-100"
+                    src="images/tajmahal.jpg"
+                    height="362.5px"
+                    alt="Third slide"
+                  />
+                  <div class="mask rgba-black-light"></div>
+                </div>
+                <div class="carousel-caption">
+                  <h3 class="h3-responsive">Taj Mahal</h3>
+                  <p>Agra, Índia</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                  <img
+                    class="d-block w-100"
+                    src="images/ruinasdepetra.jpg"
+                    height="362.5px"
+                    alt="Third slide"
+                  />
+                  <div class="mask rgba-black-light"></div>
+                </div>
+                <div class="carousel-caption">
+                  <h3 class="h3-responsive">Ruínas de Petra</h3>
+                  <p>Petra, Jordânia</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                  <img
+                    class="d-block w-100"
+                    src="images/chichenItzá.jpg"
+                    height="362.5px"
+                    alt="Third slide"
+                  />
+                  <div class="mask rgba-black-light"></div>
+                </div>
+                <div class="carousel-caption">
+                  <h3 class="h3-responsive">Chichén Itzá</h3>
+                  <p>Yucatán, México</p>
+                </div>
               </div>
             </div>
-  </div>
-  <!--/.Slides-->
-  <!--Controls-->
-  <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-  <!--/.Controls-->
-</div>
-<!--/.Carousel Wrapper-->
-  </div>
-</div>
-</body>
+            <!--/.Slides-->
+            <!--Controls-->
+            <a
+              class="carousel-control-prev"
+              href="#carousel-example-2"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carousel-example-2"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+            <!--/.Controls-->
+          </div>
+        </div>
+        <!--/.Carousel Wrapper-->
+      </div>
+    </div>
+  </body>
 </html>
